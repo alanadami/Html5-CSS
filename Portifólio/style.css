@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #E0F0FF;
+    --cor1: #C1E1FF;
+    --cor2: #A8CCED;
+    --cor3: #6A98C3;
+    --cor4: #17446E;
+    --cor5: #192F43;
+
+    --fonte-padrao: Arial, Verdana, Hevetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+
+body{
+    background-color: var(--cor0);
+    
+}
+
+p{
+    color: var(--cor1);
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h2{
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: var(--cor1);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    text-indent: 5px;
+    border-radius: 7px;
+    padding: 5px 0;
+    margin: 10px 0;
+    
+
+}
+
+h3{
+    background-color: var(--cor4);
+}
+
+header{
+    background-color: var(--cor4);
+    width: 100%;
+    height: 100px;
+
+}
+
+header > h1 {
+    font-size: 2.2em;
+    text-align: center;
+    color: var(--cor1);
+    font-family: var(--fonte-destaque);
+    padding-top: 10px;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;    
+    padding-top: 20px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    
+}
+
+nav > a{
+    color: var(--cor0);
+    text-decoration: none;
+    padding: 0px 10px;
+    background-color: var(--cor5);
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    border-radius: 3px;
+}
+
+main{
+    background-color: var(--cor3);
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+    
+}
+
+footer{
+    background-color: var(--cor4);
+    
+}
+
+footer {
+    color: var(--cor0);
+    text-align: center;
+    margin: 10px 0px;
+    height: 50px;
+    font-size: 1.2em;
+    
+}
