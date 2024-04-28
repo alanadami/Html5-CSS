@@ -1,0 +1,66 @@
+
+body{
+    margin: auto;
+    width: 30%;
+
+    
+    
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;    
+    
+}
+
+caption{
+    background-color: gray;
+    font-size: 1em;
+    padding: 5px;
+}
+
+h1{
+    justify-content: center;
+}
+
+thead{
+    background-color: #292929;
+    color: white;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgb(196, 194, 194);
+}
+
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: #292929;
+}
+
+
+tr{
+    border: 1px solid black;
+    
+}
+
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.numero{
+    text-align: right;
+}
+
+tfoot > tr > td.numero{
+    text-align: center;
+}
