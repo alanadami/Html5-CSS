@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 :root{
@@ -14,19 +15,19 @@
 header{
     background-color: black;
     color: white;
-    height: 300px;
+    height: 30vh;
     text-align: center;
         
 }
 header >h1{
     font-family: var(--fonte-destaque);
-    font-size: 170px;
+    font-size: 8vw;
     padding-top: 40px;
     font-variant: small-caps;
 
 }
 header >p{
-    font-size: 20px;
+    font-size: 1.3em;
     
 }
 
@@ -34,15 +35,14 @@ body{
     background-color: white;
 }
 main{
-    font-size: 3em;
+    font-size: 2.7vw;
     
 }
 
 h2{
-    margin-left: 50px;
-   
-    padding-bottom: 100px;
-    padding-left: 90px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 section {
@@ -51,6 +51,7 @@ section {
     padding-bottom: 10vh;
     font-style: normal;
     padding-left: 30px;
+    
 }
 
 #foto{
@@ -72,8 +73,9 @@ section {
 }
 
 .imagem > h2{
-    width: 50%;
-    background-color: rgba(0, 0, 0, 0.616);
+    display: inline-block;
+    background-color: rgb(53, 52, 52);
+   
 }
 
 footer{
