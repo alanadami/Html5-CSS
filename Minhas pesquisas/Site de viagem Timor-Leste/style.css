@@ -1,0 +1,177 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap);
+
+*{
+  margin: 0px;
+  padding: 0px;  
+}
+
+:root{
+    --fonte-padrao: 'Montserrat', cursive;
+}
+
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: white;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+header{
+    background: black url(landscape-nature-ocean-snow-night-atmosphere-823783-pxhere.com.jpg) no-repeat center;
+    height: 650px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+header > nav{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+header > nav > ul >li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: bold;    
+}
+
+a{
+    color:rgb(245, 245, 174);
+    text-decoration: none;    
+    
+}
+
+a:hover{
+    color: #0798F2;
+    text-decoration: none;
+}
+
+header > h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(245, 245, 174);
+    margin-top: 70px;
+    
+}
+
+header > p{
+    text-align: center;
+    color: rgb(245, 245, 174);
+    font-size: 30px;
+    padding: 30px;
+    font-style: italic;
+
+}
+
+header > div{
+    width: 100px;
+    margin: auto;
+    color: white;
+    
+
+}
+
+button{
+    font-size: 1.2em;
+    padding: 10px 0px;
+    color: #068BBF;
+    background-color:#0CF2DB;
+    border: 2px solid #0798F2;
+    border-radius: 5px;
+}
+
+
+ button:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.651);
+    transition: transform 0.3s;
+ }
+
+ section#primeira{
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(252, 252, 225);
+    height: 500px;
+ }
+
+ section#segunda{
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #0cf29e56;
+    height: 500px;
+ }
+
+ .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    margin-right: 15%;
+    margin-left: 15%;
+ }
+ 
+ .promocao{
+    width: 250px;
+    height: 300px;
+    background-color:#0BC4D9;
+    border-radius: 25px 0px;
+ }
+
+ .lancamento{
+    width: 250px;
+    height: 300px;
+    background-color:#0BC4D9;
+    border-radius: 25px 0px;
+
+ }
+
+ .vagas{
+    width: 250px;
+    height: 300px;
+    background-color:#0BC4D9;
+    border-radius: 25px 0px;
+ }
+
+/* section 2*/
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    margin-right: 15%;
+    margin-left: 15%;
+ }
+ 
+ .tour{
+    width: 250px;
+    height: 300px;
+    background-color:#0BC4D9;
+    border-radius: 25px 0px;
+ }
+
+ .fotografia{
+    width: 250px;
+    height: 300px;
+    background-color:#0BC4D9;
+    border-radius: 25px 0px;
+
+ }
+
+ .aluguel{
+    width: 250px;
+    height: 300px;
+    background-color:#0BC4D9;
+    border-radius: 25px 0px;
+ }
+
