@@ -6,6 +6,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    
+    
 }
 
 .container{
@@ -15,7 +17,10 @@ body{
 
     display: flex;
     justify-content: right;
-   
+    align-items: center;
+    gap: 30%;
+    flex-wrap: nowrap;
+}
 
 .box{
     background-color: #DDD;
@@ -25,7 +30,9 @@ body{
 }
 
 #item1{
-    position: var(justify-content);
-    justify-content: center;
+    width: 80px;
+    height: 300px;
+    background-image: url(../../Portifólio/001.jpeg);
+    
     
 }
