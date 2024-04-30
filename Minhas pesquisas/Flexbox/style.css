@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: right;
+   
+
+.box{
+    background-color: #DDD;
+    border: 1px solid red;
+    width: 60px;
+    height: 60px;
+}
+
+#item1{
+    position: var(justify-content);
+    justify-content: center;
+    
+}
