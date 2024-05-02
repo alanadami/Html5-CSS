@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    
+    
+    
+    <div>
+        <h1>Preecha o seguinte formulário</h1>
+        <form action="cadastro.php" method="post">
+
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+
+            <p>
+                <label for="iidade">Idade</label>
+                <input type="number" name="idade" id="iidade">
+            </p>
+
+            <p>
+                <label for="iocupacao">Atual ocupação</label>
+                <br>
+                <select name="ocupacao" id="iocupacao">
+                    <option value="">--Escolha--</option>
+                    <option value="Estudante">Estudante</option>
+                    <option value="EmpregadoPu">Empregado Público</option>
+                    <option value="EmpregadoPr">Empregado Privado</option>
+                    <option value="Desempregado">Desempregado</option>
+                </select>
+            </p>
+            <p>
+                <input type="radio" name="genero" id="imasculino" value="Masculino">
+                <label for="imasculino">Masculino</label>
+                <br>
+                <input type="radio" name="genero" id="ifeminino" value="Feminino">
+                <label for="ifeminino">Feminino</label>
+                <br>
+                <input type="radio" name="genero" id="inaobinario">
+                <label for="inaobinario">Não binário</label>              
+
+            </p>
+            <p>
+                <label for="ipolitica">Orientação política</label>
+                <br>
+                <select name="politica" id="ipolitica">
+                    <option value="">--Escolha--</option>
+                    <option value="direita">Direita</option>
+                    <option value="esquerda">Esquerda</option>
+                    <option value="centro-direita">Centro-direita</option>
+                    <option value="centro-esquerda">Centro-esquerda</option>
+                </select>
+            </p>
+            <p>
+                <label for="lazer">Qual seu lazer preferido?</label>
+                <br>
+                <input type="checkbox" name="Dancar" id="idancar">
+                <label for="idancar">Dançar</label>
+                <br>
+                <input type="checkbox" name="viajar" id="iviajar">
+                <label for="iviajar">Viajar</label>
+                <br>
+                <input type="checkbox" name="cantar" id="icantar">
+                <label for="icantar">Cantar</label>
+                <br>
+                <input type="checkbox" name="ler" id="iler">
+                <label for="iler">Ler</label>
+                <br>
+                <input type="checkbox" name="dormir" id="idormir">
+                <label for="idormir">Dormir</label>
+                <br>
+                <input type="checkbox" name="tv" id="itv">
+                <label for="itv">Assistir TV</label>
+                <br>
+                <input type="checkbox" name="pedalar" id="ipedalar">
+                <label for="ipedalar">Pedalar</label>
+                <br>
+                <input type="checkbox" name="jogar" id="ijogar">
+                <label for="ijogar">Jogar Games</label>
+
+            </p>
+            <p>
+                <label for="msg">Deixe seu comentário</label>
+                <br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+            <input type="submit" value="Enviar">
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
