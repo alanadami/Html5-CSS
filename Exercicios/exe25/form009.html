@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="cadastro.php" method="get">
+
+        <p>
+            <label for="iforma">Forma</label>
+            <input type="range" name="forma" id="iforma" min="1" max="10" oninput="imedia.innerHTML = Number(iconteudo.value) + Number(imedia.value)">
+        </p>
+
+        <p>
+            <label for="iconteudo">Conteúdo</label>
+            <input type="range" name="conteudo" id="iconteudo" min="1" max="10" oninput="imedia.innerHTML = Number(iconteudo.value) + Number(imedia.value)">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+           <output name="media" id="imedia">0</output>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
