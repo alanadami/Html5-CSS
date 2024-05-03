@@ -4,8 +4,9 @@
 }
 
 body{
-    background-color: blueviolet;
+    
     background-image: url(img/89636d4cab.webp);
+    
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -14,7 +15,12 @@ body{
     
 }
 
-
+main{
+    background-color: rgba(137, 43, 226, 0.418);
+    height: 100vh;
+    width: 100vw;
+    margin-top:  0px;
+}
 
 
 div {
