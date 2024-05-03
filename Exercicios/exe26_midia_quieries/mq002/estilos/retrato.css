@@ -3,6 +3,7 @@
 /* retrato */
 
 body{
-    background: url(../img/cev-portrait.jpg);
+    background: url(../img/alan-portrait.jpg);
     background-position: center bottom;
+    background-repeat: no-repeat;
 }
