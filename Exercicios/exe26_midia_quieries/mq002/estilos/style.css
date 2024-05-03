@@ -14,11 +14,12 @@ html, body{
     background-color: #f4f3f1;
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
 
 }
 
 h1{
     color: black;
-    text-shadow: 2px 2px 0px;
+    
     padding: 10px;
 }
